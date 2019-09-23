@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {
+font-size: 20px;
+}
+
+p:nth-child(1) {
+    font-family: 'Courier New', Courier, monospace
+}
+
+p:nth-child(2) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: red;
+    text-decoration: underline;
+}
+
+p:nth-child(3) {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px red;
+}
+
+p:nth-child(4) {
+    font-family: 'Mansalva', cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+p:nth-child(5) {
+    font-family: 'Mansalva', cursive;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 2rem;
+}
